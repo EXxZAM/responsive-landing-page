@@ -1,0 +1,35 @@
+/*! 
+Colors:
+background = #4d086d
+secondary = #d628af
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(
+        91.7deg,
+        rgb(50, 25, 79) -4.3%,
+        rgb(82, 63, 107) 101.8%
+    );
+
+    height: 100%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+}

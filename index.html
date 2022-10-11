@@ -1,0 +1,77 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Finance Website</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <header
+            class="flex justify-between p-5 italic text-white items-center align-center w-full h-[10%]"
+        >
+            <div>
+                <h1 class="text-[#d628af] text-sm md:text-xl font-semibold">
+                    Finances
+                </h1>
+            </div>
+
+            <div>
+                <ul class="flex flex-row gap-5 md:gap-10 text-red">
+                    <li
+                        class="decoration-[#d628af] underline underline-offset-4 hover:font-semibold"
+                    >
+                        Home
+                    </li>
+                    <li class="hover:font-semibold">About</li>
+                    <li class="hover:font-semibold">Contact</li>
+                    <li class="hover:font-semibold">Sign In</li>
+                </ul>
+            </div>
+            <div class="flex gap-5 justify-between items-center">
+                <span
+                    class="flex hover:bg-[#7d1fa5] w-10 h-10 rounded-full items-center justify-center z-1 hover:animate-bounce"
+                />
+                <img class="block w-5 h-5 z-10" src="assets/search.png" />
+            </div>
+        </header>
+        <section
+            class="flex flex-col md:flex-row justify-around text-white p-10 gap-2 items-center h-[90%] w-full"
+        >
+            <div class="flex flex-col justify-center gap-5 max-w-[40rem]">
+                <h1
+                    class="text-[40px] md:text-[70px] lg:text-[80px] animate-pulse"
+                >
+                    Retirement <br />
+                    Savings
+                </h1>
+                <p
+                    class="text-[15px] md:text-[16px] text-justify max-w-[40rem]"
+                >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    alias suscipit Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Ducimus tempora impedit quis, unde cumque
+                    quas animi natus, ad fugiat voluptatum officia labore
+                    possimus libero sapiente odit nobis officiis expedita error.
+                </p>
+                <div class="flex justify-between flex-wrap gap-2">
+                    <button
+                        class="hover:bg-[#a31e85] w-[300px] rounded-[50px] border-2 border-[#a31e85] hover:animate-pulse"
+                    >
+                        More Details
+                    </button>
+                    <button
+                        class="hover:bg-[#a31e85] w-[300px] rounded-[50px] border-2 border-[#a31e85] hover:animate-pulse"
+                    >
+                        View demo
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="assets/finance.png" class="w-[650px] fade-in-image" />
+            </div>
+        </section>
+    </body>
+</html>
